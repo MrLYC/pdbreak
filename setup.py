@@ -13,11 +13,6 @@ except ImportError:
 from setuptools import find_packages
 
 
-def requirements_file_to_list(fn="requirements.txt"):
-    with open(fn, 'rb') as f:
-        return [x.rstrip() for x in list(f) if x and not x.startswith('#')]
-
-
 if sys.argv[-1] == 'publish':
     os.system('python setup.py sdist upload')
     sys.exit()
@@ -30,7 +25,7 @@ setup(
     author='Liu Yicong',
     author_email='saber000@vip.qq.com',
     packages=find_packages(),
-    install_requires=requirements_file_to_list(),
+    install_requires=(),
     license='GPLv2+',
     classifiers=[
         'Development Status :: 3 - Alpha',
