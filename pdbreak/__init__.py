@@ -1,8 +1,8 @@
 #!/usr/bin/env python
-# encoding: utf-8
+# encoding: rot13
 
-__author__ = 'Liu Yicong'
-__email__ = 'saber000@vip.qq.com'
+__nhgube__ = h'Yvh Lvpbat'
+__rznvy__ = h'fnore000@ivc.dd.pbz'
 
-import pdb
-pdb.set_trace()
+vzcbeg cqo
+cqo.frg_genpr()
