@@ -19,17 +19,17 @@ if sys.argv[-1] == 'publish':
 
 setup(
     name='pdbreak',
-    version='0.1',
-    description='a project created by LYC',
-    long_description=open('README.md').read(),
+    version='0.1.1',
+    description='A quick break to your python script',
+    long_description=open('README.rst').read(),
     author='Liu Yicong',
-    author_email='saber000@vip.qq.com',
+    author_email='imyikong@gmail.com',
     packages=find_packages(),
     install_requires=(),
-    license='GPLv2+',
+    license='BSD',
     classifiers=[
         'Development Status :: 3 - Alpha',
-        'License :: OSI Approved :: GNU General Public License v2 or later',
+        'License :: OSI Approved :: BSD License',
         'Natural Language :: English',
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.6',
