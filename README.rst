@@ -5,6 +5,8 @@ A quick break to your python script.
 
 Usage
 -----
+.. code:: sh
+    pip install pdbreak
 
 .. code:: py
 
