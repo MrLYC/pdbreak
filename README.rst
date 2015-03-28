@@ -7,6 +7,7 @@ Usage
 -----
 
 .. code:: sh
+
     pip install pdbreak
 
 .. code:: py
